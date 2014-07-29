@@ -2520,7 +2520,7 @@ class SimplePie
 	/**
 	 * Get the language for the feed
 	 *
-	 * Uses `<language>`, `<dc:language>`, or @xml_lang
+	 * Uses `<language>`, `<dc:language>`, or (_at_)xml_lang
 	 *
 	 * @since 1.0 (previously called `get_feed_language()` since 0.8)
 	 * @return string|null
